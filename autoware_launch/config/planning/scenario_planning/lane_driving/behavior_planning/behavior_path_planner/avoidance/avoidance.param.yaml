@@ -19,7 +19,7 @@
       # avoidance is performed for the object type with true
       target_object:
         car:
-          th_moving_speed: 1.0                          # [m/s]
+          th_moving_speed: 0.0                          # [m/s]
           th_moving_time: 2.0                           # [s]
           longitudinal_margin: 0.0                      # [m]
           lateral_margin:
@@ -29,7 +29,7 @@
           max_expand_ratio: 0.0                         # [-] FOR DEVELOPER
           envelope_buffer_margin: 0.5                   # [m] FOR DEVELOPER
         truck:
-          th_moving_speed: 1.0
+          th_moving_speed: 0.0
           th_moving_time: 2.0
           longitudinal_margin: 0.0
           lateral_margin:
@@ -39,7 +39,7 @@
           max_expand_ratio: 0.0
           envelope_buffer_margin: 0.5
         bus:
-          th_moving_speed: 1.0
+          th_moving_speed: 0.0
           th_moving_time: 2.0
           longitudinal_margin: 0.0
           lateral_margin:
@@ -49,7 +49,7 @@
           max_expand_ratio: 0.0
           envelope_buffer_margin: 0.5
         trailer:
-          th_moving_speed: 1.0
+          th_moving_speed: 0.0
           th_moving_time: 2.0
           longitudinal_margin: 0.0
           lateral_margin:
@@ -59,7 +59,7 @@
           max_expand_ratio: 0.0
           envelope_buffer_margin: 0.5
         unknown:
-          th_moving_speed: 0.28
+          th_moving_speed: 0.0
           th_moving_time: 1.0
           longitudinal_margin: 0.0
           lateral_margin:
@@ -69,7 +69,7 @@
           max_expand_ratio: 0.0
           envelope_buffer_margin: 0.1
         bicycle:
-          th_moving_speed: 0.28
+          th_moving_speed: 0.0
           th_moving_time: 1.0
           longitudinal_margin: 1.0
           lateral_margin:
@@ -79,7 +79,7 @@
           max_expand_ratio: 0.0
           envelope_buffer_margin: 0.5
         motorcycle:
-          th_moving_speed: 1.0
+          th_moving_speed: 0.0
           th_moving_time: 1.0
           longitudinal_margin: 1.0
           lateral_margin:
@@ -89,7 +89,7 @@
           max_expand_ratio: 0.0
           envelope_buffer_margin: 0.5
         pedestrian:
-          th_moving_speed: 0.28
+          th_moving_speed: 0.0
           th_moving_time: 1.0
           longitudinal_margin: 1.0
           lateral_margin:
